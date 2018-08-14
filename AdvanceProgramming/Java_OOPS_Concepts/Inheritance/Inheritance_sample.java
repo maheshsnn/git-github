@@ -1,0 +1,19 @@
+package Inheritance;
+
+public class Inheritance_sample {
+static	int x=10;
+	//extends is used in ineritance
+	//parent class objects and methods are directly available to the child class
+	//we cannot extend more than one class at atime
+	//every class is direct child of object
+	//multi-inheritance is not possible in java
+	//multilevel inheritance is possible in java
+
+	
+public void mm()
+{
+System.out.println(x);	
+}
+
+}
+

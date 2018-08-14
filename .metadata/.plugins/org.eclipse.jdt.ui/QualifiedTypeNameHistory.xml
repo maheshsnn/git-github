@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.testng.annotations.ITestAnnotation"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="com.configurations.GridConfiguration"/>
+<fullyQualifiedTypeName name="com.base.ManageBrowser"/>
+<fullyQualifiedTypeName name="org.seleniumhq.jetty9.io.ssl.ALPNProcessor.Client"/>
+<fullyQualifiedTypeName name="com.experitest.client.Client"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>
