@@ -1,6 +1,6 @@
-package pack1;
+package Java_programs;
 
-public class FinallyDemo {
+public class ExceptionDemo {
 
 	public static void main(String[] args) {
 		try
@@ -12,17 +12,26 @@ public class FinallyDemo {
 			a[10]=20;
 			System.out.println("***** End of the try block *****");
 		}
-		/*catch(ArithmeticException e)
+		/*catch(Exception e)
 		{
 			System.out.println(e);
 			System.out.println("***** End of the catch block *****");
+		}*/
+		/*catch(ArithmeticException ae)
+		{
+			System.out.println(ae);
+			System.out.println("***** End of the catch block1 *****");
+		}
+		catch(ArrayIndexOutOfBoundsException a)
+		{
+			System.out.println(a);
+			System.out.println("***** End of the catch block2 *****");
 		}*/
 		finally
 		{
 			System.out.println("***** End of the finally block *****");
 		}
-		System.out.println("***** End of the program *****");
-
+		System.out.println("***** End of the Program *****");
 	}
 
 }

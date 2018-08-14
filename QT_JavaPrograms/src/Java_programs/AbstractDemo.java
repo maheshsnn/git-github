@@ -1,4 +1,4 @@
-package pack1;
+package Java_programs;
 abstract class Shapes
 {
 	abstract void area();

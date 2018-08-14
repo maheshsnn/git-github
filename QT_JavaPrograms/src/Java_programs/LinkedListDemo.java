@@ -1,26 +1,25 @@
-package pack1;
+package Java_programs;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class HashSetDemo {
+public class LinkedListDemo {
 
 	public static void main(String[] args) {
-		HashSet<String> hs=new HashSet<String>();
-		hs.add("X");
-		hs.add("Y");
-		hs.add("Z");
-		hs.add("X");
-		System.out.println("No of elements:"+hs.size());
+		LinkedList<String> ll=new LinkedList<String>();
+		ll.add("X");
+		ll.add("Y");
+		ll.add("Z");
+		ll.add("X");
+		System.out.println("No of elements:"+ll.size());
 		System.out.println("**** Collection Elements are ****");
 		/*Iterator itr=al.iterator();
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
 		}*/
-		for(String s:hs)
+		for(String s:ll)
 		{
 			System.out.println(s);
 		}

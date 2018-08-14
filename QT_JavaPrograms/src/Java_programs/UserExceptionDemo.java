@@ -1,4 +1,4 @@
-package pack1;
+package Java_programs;
 class UserException extends Exception
 {
 	String msg;

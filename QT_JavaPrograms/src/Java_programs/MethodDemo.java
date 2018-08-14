@@ -1,4 +1,4 @@
-package pack1;
+package Java_programs;
 class A
 {
 	int x=10,y=20;
