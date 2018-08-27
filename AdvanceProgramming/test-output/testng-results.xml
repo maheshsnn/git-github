@@ -2,27 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32932" started-at="2017-11-07T19:39:50Z" finished-at="2017-11-07T19:40:23Z">
+  <suite name="Default suite" duration-ms="1089" started-at="2018-08-27T11:14:23Z" finished-at="2018-08-27T11:14:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32932" started-at="2017-11-07T19:39:50Z" finished-at="2017-11-07T19:40:23Z">
-      <class name="first.Configurations$secondclass">
-        <test-method status="PASS" signature="mh(java.lang.String)[pri:0, instance:first.Configurations$secondclass@6737fd8f]" name="mh" is-config="true" duration-ms="13763" started-at="2017-11-08T01:09:50Z" finished-at="2017-11-08T01:10:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ff]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mh -->
-        <test-method status="PASS" signature="mm()[pri:0, instance:first.Configurations$secondclass@6737fd8f]" name="mm" duration-ms="19131" started-at="2017-11-08T01:10:04Z" finished-at="2017-11-08T01:10:23Z">
+    <test name="Default test" duration-ms="1089" started-at="2018-08-27T11:14:23Z" finished-at="2018-08-27T11:14:24Z">
+      <class name="xcel.readcells">
+        <test-method status="PASS" signature="mm()[pri:0, instance:xcel.readcells@7f9a81e8]" name="mm" duration-ms="1068" started-at="2018-08-27T16:44:23Z" finished-at="2018-08-27T16:44:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mm -->
-      </class> <!-- first.Configurations$secondclass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- xcel.readcells -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -20,8 +20,9 @@ def my_function():
             print("Hello from a function without parameter")
             print("function should be declared by using def without parameter")
 
-def my_functions(mname):
+def my_functions(names):
             print("Hello from a function with paarameter")
             print("function should be declared by using def paramter")
   
 my_function()
+my_functions("email")

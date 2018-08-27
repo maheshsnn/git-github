@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="first.Configurations">
+      <class name="xcel.readcells">
         <methods>
-          <include name="m2"/>
-          <include name="m"/>
+          <include name="mm"/>
         </methods>
-      </class> <!-- first.Configurations -->
+      </class> <!-- xcel.readcells -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
