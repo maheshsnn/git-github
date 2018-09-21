@@ -29,6 +29,12 @@ public class Case_one {
 		System.out.println("After method");
 	}
 	*/
+	
+	@Before("@data")
+	public void mm()
+	{
+		
+	}
 
 @Given("^checking given in scenarioone$")
 public void checking_given_in_scenarioone() throws Throwable {
