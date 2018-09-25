@@ -198,6 +198,8 @@ public class CS_Member_Login_Part2 extends ManageBrowser {
 	@AfterMethod
 	public void tearup(ITestResult result) throws Exception {
 		CommonMethods.CaptureScreenshot(driver, result);
+		
+	
 	}
 
 	@AfterClass

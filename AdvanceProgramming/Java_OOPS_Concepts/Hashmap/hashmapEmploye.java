@@ -15,9 +15,12 @@ public class hashmapEmploye {
 		hms.put(1, e1);
 		hms.put(2, e2);
 
-		System.out.println(hms.get(1));
+	
+		
 
 		for (Entry m : hms.entrySet()) {
+			
+			
 			System.out.println("Key info " + m.getKey());
 
 			Employeeclass e = (Employeeclass) m.getValue();

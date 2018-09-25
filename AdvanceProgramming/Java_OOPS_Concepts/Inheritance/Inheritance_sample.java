@@ -15,5 +15,16 @@ public void mm()
 System.out.println(x);	
 }
 
+public void mm(int x)
+{
+System.out.println(x);	
+
+double m=10.3;
+
+double z=x+m;
+
+System.out.println(z);
+}
+
 }
 

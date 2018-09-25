@@ -26,7 +26,7 @@ public class int_sorted_Array {
 					nums[j]=temp;
 					
 				}
-				
+		//remove duplilcates		
 				if(nums[i]==nums[j]) {
 					
 					nums[j]=nums[total-1];
