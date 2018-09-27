@@ -4,7 +4,7 @@ public class String_Sorted_Array {
 	
 	public static void main(String[] args) {
 		
-		String[] names= {"mahesh","aaaa","ssssss","ccccc"};
+		String[] names= {"mahesh","aaaa","ssssss","ccccc","aaaa"};
 		
 		int leng=names.length;
 		
@@ -21,6 +21,16 @@ public class String_Sorted_Array {
 					names[i]=names[j];
 					
 					names[j]=temp;
+					
+				}
+				
+				if(names[i].compareTo(names[j])==0)
+				{
+					
+					names[j]=names[leng-1];
+					leng--;
+					j--;
+							
 					
 				}
 			}

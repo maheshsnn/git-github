@@ -2,6 +2,7 @@ package List_concepts;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Sorting_EmployeeTable {
@@ -20,8 +21,11 @@ public class Sorting_EmployeeTable {
 	l.add(new Employee("Daisy",1963));
 	l.add(new Employee("Peter",1931));
 	
-	Collections.sort(l);
+	//Collections.sort(l);
 	System.out.println(l);
+
+	
+
 	
 	}
 }

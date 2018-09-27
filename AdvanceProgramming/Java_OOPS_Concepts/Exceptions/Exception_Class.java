@@ -6,11 +6,17 @@ public class Exception_Class {
 		
 	
 	
-	int age=70;
-	
-	if(age>60)
-	{
-		throw new Userdefined_Exception("Exception in main which is a user defined exceptionssssss");
+	try {
+		int age=50;
+		
+		if(age>60)
+		{
+			throw new Userdefined_Exception("Exception in main which is a user defined exceptionssssss");
+		}
+		
+	} catch (Userdefined_Exception s) {
+		// TODO Auto-generated catch block
+		s.printStackTrace();
 	}
 
 	

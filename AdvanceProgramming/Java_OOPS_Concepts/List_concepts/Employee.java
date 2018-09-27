@@ -2,7 +2,8 @@ package List_concepts;
 
 import java.util.Comparator;
 
-public class Employee implements Comparable<Employee>{
+public class Employee //implements Comparable<Employee>
+{
 
 	private String name;
 	private int dob;
@@ -12,7 +13,23 @@ public class Employee implements Comparable<Employee>{
 		this.dob = dob;
 	}
 
-	@Override
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getDob() {
+		return dob;
+	}
+
+	public void setDob(int dob) {
+		this.dob = dob;
+	}
+
+	/*@Override
 	public int compareTo(Employee O) {
 		// TODO Auto-generated method stub
 		int compares = name.compareTo(O.name);
@@ -20,7 +37,7 @@ public class Employee implements Comparable<Employee>{
 			compares=Integer.compare(dob, O.dob);
 		}
 		return compares;
-	}
+	}*/
 
 	public String toString() {
 		return "name: " + name + ";  dob:" + dob + "\n";
