@@ -21,7 +21,7 @@ public class Sorting_EmployeeTable {
 	l.add(new Employee("Daisy",1963));
 	l.add(new Employee("Peter",1931));
 	
-	//Collections.sort(l);
+	Collections.sort(l);
 	System.out.println(l);
 
 	

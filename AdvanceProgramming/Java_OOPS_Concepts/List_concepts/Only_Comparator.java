@@ -18,37 +18,27 @@ public class Only_Comparator {
 		l.add(new Employee("Daisy", 1963));
 		l.add(new Employee("Peter", 1931));
 
-		Comparator<Employee>cr = new Comparator<Employee>() {
+		Comparator<Employee> cr = new Comparator<Employee>() {
 
 			@Override
 			public int compare(Employee e1, Employee e2) {
 				// TODO Auto-generated method stub
-			/*	if(e1.getDob()>e2.getDob())
-				{
+				/*
+				 * if(e1.getDob()>e2.getDob()) { return 1;
+				 * 
+				 * } else { return -1; } }
+				 */
+
+				if (e1.getName().compareTo(e2.getName()) > 0) {
 					return 1;
-					
-				}
-				else
-				{
+
+				} else {
 					return -1;
 				}
 			}
-*/
-			
-			if(e1.getName().compareTo(e2.getName())>0)
-			{
-				return 1;
-				
-			
-			}
-			else {
-			return -1;}
-			}
-			
-			
-			};
-		
-		
+
+		};
+
 		Collections.sort(l, cr);
 		System.out.println(l);
 
