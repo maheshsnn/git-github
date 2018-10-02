@@ -7,21 +7,16 @@ public class Thread_class_ext {
 		A obj1 = new A();
 		B obj2 = new B();
 
-		//obj1.run();
-		//obj2.run();
 
-		Thread t1 = new Thread(obj1);
-		Thread t2 = new Thread(obj2);
-
-		t1.start();
-		Thread.sleep(10);
-		t2.start();
+obj1.start();
+Thread.sleep(10);
+obj2.start();
 		
 		
 		
 		
-		t1.join();
-		t2.join();
+		obj1.join();
+		obj2.join();
 		
 		System.out.println("bye");
 

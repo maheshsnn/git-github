@@ -5,7 +5,6 @@ public class Runnable_class {
 	public static void main(String[] args) throws Exception {
 
 		Runnable obj1 = new Runnable() {
-
 			public void run() {
 
 				for (int i = 0; i < 5; i++) {
