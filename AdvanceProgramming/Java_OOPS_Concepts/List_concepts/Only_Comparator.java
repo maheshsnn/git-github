@@ -23,11 +23,11 @@ public class Only_Comparator {
 			@Override
 			public int compare(Employee e1, Employee e2) {
 				// TODO Auto-generated method stub
-				/*
-				 * if(e1.getDob()>e2.getDob()) { return 1;
-				 * 
-				 * } else { return -1; } }
-				 */
+				
+				  /*if(e1.getDob()>e2.getDob()) { return 1;
+				  
+				  } else { return -1; } }*/
+				 
 
 				if (e1.getName().compareTo(e2.getName()) > 0) {
 					return 1;
@@ -35,11 +35,14 @@ public class Only_Comparator {
 				} else {
 					return -1;
 				}
+				
+				
 			}
 
 		};
 
-		Collections.sort(l, cr);
+		//Collections.sort(l, cr);
+		//Collections.sort(l);
 		System.out.println(l);
 
 	}
