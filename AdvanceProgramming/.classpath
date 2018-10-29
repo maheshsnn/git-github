@@ -3,29 +3,38 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Selenium"/>
 	<classpathentry kind="src" path="Java_OOPS_Concepts"/>
-	<classpathentry kind="lib" path="G:/lib/extentreports-2.05.jar"/>
-	<classpathentry kind="lib" path="G:/lib/guice-3.0.jar"/>
-	<classpathentry kind="lib" path="G:/lib/junit.jar"/>
-	<classpathentry kind="lib" path="G:/lib/jxl.jar"/>
-	<classpathentry kind="lib" path="G:/lib/reportng-1.1.4.jar"/>
-	<classpathentry kind="lib" path="G:/lib/selenium-java-2.52.0.jar"/>
-	<classpathentry kind="lib" path="G:/lib/selenium-server-standalone-2.52.0.jar"/>
-	<classpathentry kind="lib" path="G:/lib/testng-6.11.jar"/>
-	<classpathentry kind="lib" path="G:/lib/velocity-1.7-dep.jar"/>
-	<classpathentry kind="lib" path="G:/lib/xmlbeans.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="G:/lib/mysql-database-1.8.0-sources.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/org.testng_6.12.0.r201709030044.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/poi-3.17-beta1.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/poi-examples-3.17-beta1.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/poi-excelant-3.17-beta1.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/poi-ooxml-3.17-beta1.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/poi-ooxml-schemas-3.17-beta1.jar"/>
-	<classpathentry kind="lib" path="G:/lib/Apache Poi/poi-scratchpad-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/commons-email-1.5.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/extentreports-2.05.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/gecko-1.1.0.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/htmlunitdriver.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/javaee.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/javax.mail-1.6.1.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/javax.mail-api-1.5.1.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/jenkins-1.5.2.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/mail.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/selenium-java-3.11.0.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/selenium-server-standalone-3.11.0.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/testng-6.7.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/testng-6.8.7-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/velocity-1.7-dep.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/xmlbeans.jar"/>
+	<classpathentry kind="lib" path="G:/Photon_Automation/lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
