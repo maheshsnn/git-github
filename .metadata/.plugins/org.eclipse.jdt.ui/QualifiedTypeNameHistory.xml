@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.testng.annotations.ITestAnnotation"/>
-    <fullyQualifiedTypeName name="com.configurations.GridConfiguration"/>
-    <fullyQualifiedTypeName name="com.base.ManageBrowser"/>
-    <fullyQualifiedTypeName name="org.seleniumhq.jetty9.io.ssl.ALPNProcessor.Client"/>
-    <fullyQualifiedTypeName name="com.experitest.client.Client"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-    <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.ast.SuperReference"/>
-    <fullyQualifiedTypeName name="Page_factory_framework.Pob"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.CacheLookup"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="org.testng.annotations.ITestAnnotation"/>
+<fullyQualifiedTypeName name="com.configurations.GridConfiguration"/>
+<fullyQualifiedTypeName name="com.base.ManageBrowser"/>
+<fullyQualifiedTypeName name="org.seleniumhq.jetty9.io.ssl.ALPNProcessor.Client"/>
+<fullyQualifiedTypeName name="com.experitest.client.Client"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
+<fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.ast.SuperReference"/>
+<fullyQualifiedTypeName name="Page_factory_framework.Pob"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.CacheLookup"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.beust.jcommander.Parameter"/>
+<fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameter"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>

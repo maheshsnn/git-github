@@ -10,5 +10,6 @@ public class Get_alphabets_only {
 		
 		System.out.println(s.replaceAll("[^a-zA-Z]",""));
 		
+		
 	}
 }

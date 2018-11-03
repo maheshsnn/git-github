@@ -7,7 +7,7 @@ public class Exception_Class {
 	
 	
 	try {
-		int age=50;
+		int age=80;
 		
 		if(age>60)
 		{

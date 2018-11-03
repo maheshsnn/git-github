@@ -20,6 +20,7 @@ public class ManageBrowser {
 	public static ExtentTest logger;
 	public static Propertiesfile pro;
 	public static ReadMandatoryFields rd;
+	
 	WebDriver driver;
 
 	/**

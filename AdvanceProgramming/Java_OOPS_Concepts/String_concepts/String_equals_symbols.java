@@ -15,8 +15,9 @@ public class String_equals_symbols {
 		String N=new String("mahesh");
 		String o=new String("mahesh");
 		
-		System.out.println(N==o);
 		System.out.println(N.equals(o));
+		System.out.println(N==o);
+	
 		
 	}
 

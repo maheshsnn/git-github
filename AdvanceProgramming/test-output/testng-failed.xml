@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="ie"/>
+  <parameter name="Env" value="QA"/>
+  <test name="Test(failed)" parallel="classes" preserve-order="true">
+    <parameter name="browser" value="ie"/>
+    <parameter name="Env" value="prod"/>
     <classes>
-      <class name="xcel.readcells">
+      <class name="Environment_parameterisation.Parameters">
         <methods>
-          <include name="mm"/>
+          <include name="beforeeveryclass"/>
+          <include name="beforeeveryclass"/>
+          <include name="testclass"/>
         </methods>
-      </class> <!-- xcel.readcells -->
+      </class> <!-- Environment_parameterisation.Parameters -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+  <test name="Test2(failed)" parallel="classes" preserve-order="true">
+    <parameter name="browser" value="ie"/>
+    <parameter name="Env" value="QA"/>
+    <classes>
+      <class name="Environment_parameterisation.Parameters">
+        <methods>
+          <include name="beforeeveryclass"/>
+          <include name="beforeeveryclass"/>
+          <include name="testclass"/>
+        </methods>
+      </class> <!-- Environment_parameterisation.Parameters -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

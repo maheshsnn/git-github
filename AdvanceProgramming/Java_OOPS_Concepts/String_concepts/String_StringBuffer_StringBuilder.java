@@ -12,5 +12,11 @@ public class String_StringBuffer_StringBuilder {
 	 * String builder is non-synchronised and multiple thread execution can be done due to which excution time is less
 	 * 
 	 */
+	public static void main(String[] args) {
+		StringBuilder br = new StringBuilder("mahesh");
+		br.reverse();
+		System.out.println(br);
+		
+	}
 
 }

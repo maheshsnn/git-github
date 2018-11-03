@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite"  parallel="classes">
 
-<listeners>
 
-<listener class-name="Practice."></listener>
-</listeners>
-  <test name="Test">
-  
-  
-  <groups>
-  
-  <run>
-  
-  <include name=""></include>
-  
-  </run>
-  
-  </groups>
-  
-  <classes>
-  
-  <class name=""></class>
-  </classes>
-  
-  
-  </test> <!-- Test -->
+
+<suite name="Suite" parallel="classes">
+
+	<test name="Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="Env" value="prod"></parameter>
+
+
+		<!-- <listeners> <listener class-name="Practice."></listener> </listeners> 
+			<test name="Test"> -->
+		<!-- <groups> <run> <include name=""></include> </run> </groups> -->
+
+		<classes>
+
+			<class name="Environment_parameterisation.class_2"></class>
+		</classes>
+
+
+	</test> <!-- Test -->
+
+
+
+
+	<test name="Test2">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="Env" value="QA"></parameter>
+
+
+		<!-- <listeners> <listener class-name="Practice."></listener> </listeners> 
+			<test name="Test"> -->
+		<!-- <groups> <run> <include name=""></include> </run> </groups> -->
+
+		<classes>
+
+			<class name="Environment_parameterisation.class_2"></class>
+		</classes>
+
+
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
+
+
