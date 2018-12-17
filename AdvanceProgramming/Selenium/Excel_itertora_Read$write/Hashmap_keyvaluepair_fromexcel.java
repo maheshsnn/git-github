@@ -40,6 +40,7 @@ public class Hashmap_keyvaluepair_fromexcel {
 			Iterator<Cell> celliterator = row.iterator();
 
 			while (celliterator.hasNext()) {
+				
 				Cell cell = celliterator.next();
 
 				cell.setCellType(CellType.STRING);

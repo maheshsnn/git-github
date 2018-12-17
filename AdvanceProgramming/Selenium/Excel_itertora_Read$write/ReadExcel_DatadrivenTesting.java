@@ -39,8 +39,11 @@ public class ReadExcel_DatadrivenTesting
 		XSSFSheet s = wb.getSheetAt(0);
 
 		ArrayList<String> lists = new ArrayList<String>();
+		
 		Iterator<Row> itr = s.iterator();
+		
 		while (itr.hasNext()) {
+			
 			lists.add(itr.next().getCell(colno).getStringCellValue());
 		}
 		System.out.println(lists);

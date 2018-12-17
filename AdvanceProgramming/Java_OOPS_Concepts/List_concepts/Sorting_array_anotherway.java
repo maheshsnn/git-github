@@ -17,6 +17,7 @@ public class Sorting_array_anotherway {
      wordList.add("aaaaaa");
      wordList.add("bbbbbbb");
      
+     
      for(int i=0;i<wordList.size();i++)
      {
    	  for(int j=i+1;j<wordList.size();j++)

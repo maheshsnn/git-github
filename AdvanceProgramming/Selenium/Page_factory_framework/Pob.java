@@ -1,5 +1,7 @@
 package Page_factory_framework;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -27,6 +29,7 @@ public class Pob {
 	public void Login() {
 		username.sendKeys("maheshsnn");
 		password.sendKeys("Hello2D4y#");
+		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 	}
 
 }
