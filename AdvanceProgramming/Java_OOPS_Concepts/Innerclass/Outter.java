@@ -20,7 +20,7 @@ public class Outter {
 		
 		Outter.inner i=O.new inner();//creating object to acces inner class
 		
-	//	O.outerclass();
+	    O.outerclass();
 		
 		i.innerclass();
 	}
