@@ -6,7 +6,7 @@ public class Permutations {
 		String s = "abc"; 
 		//System.out.println(s.substring(2));
 		
-  printPermutn(s, "");
+       printPermutn(s, "");
 	}
 	
 	static void printPermutn(String str, String ans) 

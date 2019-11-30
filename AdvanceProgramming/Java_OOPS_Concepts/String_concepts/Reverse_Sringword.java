@@ -27,6 +27,7 @@ public class Reverse_Sringword {
 		}
 		
 		
+		//if we want to revense whole string just change for loog to negative iterations
 		
 		
 	}

@@ -41,7 +41,7 @@ public class Only_Comparator {
 
 		};
 
-		//Collections.sort(l, cr);
+		Collections.sort(l, cr);
 		//Collections.sort(l);
 		System.out.println(l);
 
