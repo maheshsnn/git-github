@@ -4,10 +4,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.TreeSet;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
 public class Sorting_list_String {
 	
 	
 	public static void main(String[] args) {
+		
+		WebDriver driver;
 		
 		int count=0;
 	//	List<String>words=Arrays.asList("mahesh","aaaa","ssssss","ccccc");
@@ -16,9 +21,7 @@ public class Sorting_list_String {
 
 	      List<String> wordList = Arrays.asList(words);  
 
-
-	      
-	      //this is one way
+     	      //this is one way
 	      
 	      for(int i=0;i<wordList.size()-1;i++)
 	      

@@ -4,7 +4,11 @@ public class Getter_setter {
 	
 	private String name;
 	
+	
 	public static void main(String[] args) {
+		
+		
+		
 		
 	}
 	

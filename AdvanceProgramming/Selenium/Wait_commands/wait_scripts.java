@@ -26,12 +26,17 @@ public class wait_scripts {
 		WebDriverWait wait=new WebDriverWait(driver,600);
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath(""))));
 		
-		Wait<WebDriver> waits=new FluentWait<WebDriver>(driver).withTimeout(200, TimeUnit.SECONDS).ignoring(Exception.class).pollingEvery(5, TimeUnit.SECONDS);
+		//Wait<WebDriver> waits=new FluentWait<WebDriver>(driver).withTimeout(200, TimeUnit.SECONDS).ignoring(Exception.class).pollingEvery(5, TimeUnit.SECONDS);
 		
 		
 		
 		
+		//Wait waitss=new FluentWait(driver).withTimeout(10, TimeUnit.SECONDS).ignoring(Exception.class).pollingEvery(10, TimeUnit.SECONDS);
 		
+		WebDriverWait waitss=new WebDriverWait(driver,500);
+		waitss.until(ExpectedConditions.elementToBeClickable(By.xpath(""))).click();
+		
+		Wait rr=new FluentWait(driver).withTimeout(10, TimeUnit.SECONDS).ignoring(Exception.class).pollingEvery(10, TimeUnit.SECONDS);
 		
 	}
 

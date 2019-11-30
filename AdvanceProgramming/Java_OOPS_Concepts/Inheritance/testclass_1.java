@@ -4,7 +4,8 @@ public class testclass_1 extends Inheritance_sample {
 	
 	public void mm()
 	{
-	System.out.println("xy");	
+	System.out.println("xy");
+	
 	}
 
 		public static void main(String[] args) {

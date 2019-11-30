@@ -31,6 +31,7 @@ public class Alerts {
 		 d.findElement(By.cssSelector("#loginbutton")).click();
 		 d.manage().timeouts().implicitlyWait(500,TimeUnit.SECONDS);
 		 Thread.sleep(5000);
+		 
 		 Alert al=d.switchTo().alert();
 		System.out.println(al.getText());
 	//System.out.println(al);

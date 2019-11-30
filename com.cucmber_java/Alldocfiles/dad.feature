@@ -1,4 +1,3 @@
-
 @smoketests
 Feature: Login to gmail
 Scenario: login with valid credentials into gmail

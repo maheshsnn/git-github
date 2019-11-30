@@ -18,7 +18,7 @@ public class int_sorted_Array {
 			
 			for(int j=i+1;j<total;j++)
 			{
-				if(nums[i]>nums[j])
+				if(nums[i]<nums[j])
 				{
 					
 					int temp=nums[i];

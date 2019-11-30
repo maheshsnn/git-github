@@ -15,6 +15,7 @@ public class Windows_Iterator {
     d=new FirefoxDriver();
     
     String Parent=d.getWindowHandle();
+    
     d.findElement(By.id("")).click();//this will open a new window
    Set<String>allHandles= d.getWindowHandles();
    

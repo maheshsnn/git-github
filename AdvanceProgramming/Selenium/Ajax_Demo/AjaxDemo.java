@@ -33,6 +33,7 @@ public class AjaxDemo {
 		Select branch=new Select(d.findElement(By.id("selBranch")));
 		branch.selectByVisibleText("Sanjeeva Reddy Nagar");
 		Thread.sleep(5000);
+		
 	}
 	@Before
 	public void setUp()

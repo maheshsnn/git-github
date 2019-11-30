@@ -7,6 +7,8 @@ public abstract class Abstract_class {
 	//abstract method
 	abstract public void m1();
 	
+	abstract public void m3();
+	
 	//concrete method 
 	public void m2()
 	{
@@ -16,12 +18,14 @@ public abstract class Abstract_class {
 	
 }
 
-class chid extends Abstract_class
+abstract class chid extends Abstract_class
 {
+
+	@Override
+	public void m1() {
+		// TODO Auto-generated method stub
+		
+	}
 	
-public void m1()
-{
-	System.out.println("abstract method overriding");
-	
-}
+
 }

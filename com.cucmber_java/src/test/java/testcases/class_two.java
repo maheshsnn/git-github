@@ -1,6 +1,7 @@
 package testcases;
 
 import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -8,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
+import com.google.common.collect.Maps;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.After;
@@ -46,8 +49,15 @@ public void entered_username_and_password(DataTable credentials) throws Throwabl
 	System.out.println("1");
 	System.out.println("@When folder in class two");
 	Thread.sleep(4000);
-	List<List<String>>dealvalues=credentials.raw();
-	driver.findElement(By.xpath("//*[@class='whsOnd zHQkBf']")).sendKeys(dealvalues.get(0).get(0));
+	
+	/*List<List<String>>dealvalues=credentials.raw();
+	driver.findElement(By.xpath("//*[@class='whsOnd zHQkBf']")).sendKeys(dealvalues.get(0).get(0));*/
+	for(Map<String, String> data:credentials.asMaps(String.class, String.class))
+	{
+		driver.findElement(By.xpath("//*[@class='whsOnd zHQkBf']")).sendKeys(data.get(""));
+	}
+	
+	
 }
 
 @Then("^usershould be able to login into gmail$")

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="Environment_parameterisation.Parameters">
+      <class name="Auto_IT.Auto_It">
         <methods>
-          <include name="testclass"/>
+          <include name="mah"/>
+          <include name="mahesh"/>
         </methods>
-      </class> <!-- Environment_parameterisation.Parameters -->
+      </class> <!-- Auto_IT.Auto_It -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

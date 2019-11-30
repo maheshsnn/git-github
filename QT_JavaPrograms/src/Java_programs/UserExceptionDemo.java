@@ -4,6 +4,7 @@ class UserException extends Exception
 	String msg;
 	UserException()
 	{
+			super();
 		
 	}
 	UserException(String msg)

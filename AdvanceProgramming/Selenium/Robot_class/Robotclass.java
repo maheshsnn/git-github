@@ -38,6 +38,8 @@ public class Robotclass {
 	//	rm.keyPress(keyevent);
 		
 		
+		
+		
 		String mail="mahesh.bethi"+r.nextInt()+"@gmail.com";
 		System.out.println(mail);
 		

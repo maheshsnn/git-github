@@ -20,4 +20,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="String_concepts.star_print"/>
+<fullyQualifiedTypeName name="com.taobao.gecko.service.SingleRequestCallBackListener"/>
 </qualifiedTypeNameHistroy>

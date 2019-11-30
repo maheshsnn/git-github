@@ -7,7 +7,7 @@ public class method_overloading_child extends Method_Overriding
 		
 		
 	//	method_overloading_child ss=new Method_Overriding();
-		//this is an error and java cannnot support this as child can have the parent type but parent cannot have the child type
+		//this is an error and java cannnot support this as parent can have the child type but child cannot have the parent type
 		
 			
 		method_overloading_child SS=new method_overloading_child();//this is valid as child can have parent type

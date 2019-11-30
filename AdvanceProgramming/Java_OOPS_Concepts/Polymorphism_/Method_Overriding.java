@@ -10,7 +10,7 @@ public class Method_Overriding {
 		
 	}*/
 	
-	public  int sum(String s)
+	public  Object sum(String s)
 	{
 		
 		System.out.println("Parent class method");
@@ -24,15 +24,17 @@ public class Method_Overriding {
 class c extends Method_Overriding
 
 {
-	
-	public  int sum(String s)
+	public  String sum(String s)
 	{
 		
-		System.out.println("Parent class method");
-		int x=0;
-		return 0;
+		System.out.println("child class method");
+		return s
+				
+				;
+		
 		
 		
 	}
+
 	
 	}

@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class regularexpressions_class {
 /**
  * [^abc] used for except abc
- * [^1-9] used for except abc
+ * [^1-9] used for except numbers
  * \s  only spacces
  * \S Except spaces
  * \d only digits
@@ -21,14 +21,14 @@ public class regularexpressions_class {
  */
 	public static void main(String[] args) {
 		
-Pattern pt=Pattern.compile("12");
+Pattern pt=Pattern.compile("\\D");
 
-Matcher m=pt.matcher("fghkjklasd654563213564");
+Matcher m=pt.matcher("fghkjklasd 654563213564");
 	int count =0;
 	while(m.find())
 	{
 		count++;
-		System.out.println(m.start()+""+m.end()+""+m.group());
+		System.out.println(m.start()+"       "+m.end()+"            "+m.group());
 	}
 	
 	}

@@ -24,10 +24,12 @@ public class Employee implements Comparable<Employee>
 	public int getDob() {
 		return dob;
 	}
+	
 
 	public void setDob(int dob) {
 		this.dob = dob;
 	}
+	
 
 	@Override
 	public int compareTo(Employee O) {

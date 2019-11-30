@@ -46,7 +46,8 @@ public class ReadExcel_DatadrivenTesting
 			
 			lists.add(itr.next().getCell(colno).getStringCellValue());
 		}
-		System.out.println(lists);
+		
+		
 		return lists;
 
 	}

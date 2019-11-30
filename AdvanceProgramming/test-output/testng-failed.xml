@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="classes">
-  <parameter name="browser" value="ie"/>
-  <parameter name="Env" value="QA"/>
-  <test name="Test(failed)" parallel="classes" preserve-order="true">
-    <parameter name="browser" value="ie"/>
-    <parameter name="Env" value="prod"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="Environment_parameterisation.Parameters">
+      <class name="Auto_IT.Auto_It">
         <methods>
-          <include name="beforeeveryclass"/>
-          <include name="beforeeveryclass"/>
-          <include name="testclass"/>
+          <include name="mah"/>
+          <include name="mahesh"/>
         </methods>
-      </class> <!-- Environment_parameterisation.Parameters -->
+      </class> <!-- Auto_IT.Auto_It -->
     </classes>
-  </test> <!-- Test(failed) -->
-  <test name="Test2(failed)" parallel="classes" preserve-order="true">
-    <parameter name="browser" value="ie"/>
-    <parameter name="Env" value="QA"/>
-    <classes>
-      <class name="Environment_parameterisation.Parameters">
-        <methods>
-          <include name="beforeeveryclass"/>
-          <include name="beforeeveryclass"/>
-          <include name="testclass"/>
-        </methods>
-      </class> <!-- Environment_parameterisation.Parameters -->
-    </classes>
-  </test> <!-- Test2(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -12,7 +12,9 @@ static	int x=10;
 	
 public void mm()
 {
-System.out.println(x);	
+System.out.println(x);
+
+
 }
 
 public void mm(int x)
