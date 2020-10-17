@@ -26,6 +26,12 @@ public class class_two {
 @Before("@smoketests")
 public void mm()
 {
+	
+	System.setProperty("webdriver.chrome.driver", "G:\\Photon_Automation\\lib\\chromedriver.exe");
+	
+/*	 driver= new ChromeDriver();
+	 
+	 driver.get("https://www.facebook.com");*/
 	}
 
 
@@ -37,7 +43,7 @@ public void open_gmail_and_start_application() throws Throwable {
 	
 
 	
-	System.setProperty("webdriver.chrome.driver","G:\\lib\\Cucumber\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","G:\\Photon_Automation\\lib\\chromedriver.exe");
 	 driver=new ChromeDriver();
 	 driver.get("https://accounts.google.com");
 	

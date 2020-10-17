@@ -15,6 +15,7 @@ public class enum_class {
 		
 		
 		beer b=beer.bd;
+		
 		System.out.println("test  "+b);//to print single value from enums
 
 	

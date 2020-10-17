@@ -34,6 +34,7 @@ public class Case_one {
 	public void mm()
 	{
 		
+	
 	}
 
 @Given("^checking given in scenarioone$")

@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41543" started-at="2019-07-26T20:06:13Z" finished-at="2019-07-26T20:06:55Z">
+  <suite name="Default suite" duration-ms="47" started-at="2020-10-12T15:12:32Z" finished-at="2020-10-12T15:12:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41543" started-at="2019-07-26T20:06:13Z" finished-at="2019-07-26T20:06:55Z">
-      <class name="Auto_IT.Auto_It">
-        <test-method status="PASS" signature="mahesh()[pri:0, instance:Auto_IT.Auto_It@735b5592]" name="mahesh" is-config="true" duration-ms="4699" started-at="2019-07-27T01:36:13Z" finished-at="2019-07-27T01:36:18Z">
+    <test name="Default test" duration-ms="47" started-at="2020-10-12T15:12:32Z" finished-at="2020-10-12T15:12:32Z">
+      <class name="Practice.data_providerclass$DP">
+        <test-method status="PASS" signature="myTest(java.lang.String)[pri:0, instance:Practice.data_providerclass$DP@2ef5e5e3]" name="myTest" duration-ms="14" started-at="2020-10-12T20:42:32Z" data-provider="data-provider" finished-at="2020-10-12T20:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First-Value]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mahesh -->
-        <test-method status="PASS" signature="mah()[pri:0, instance:Auto_IT.Auto_It@735b5592]" name="mah" duration-ms="36826" started-at="2019-07-27T01:36:18Z" finished-at="2019-07-27T01:36:55Z">
+        </test-method> <!-- myTest -->
+        <test-method status="PASS" signature="myTest(java.lang.String)[pri:0, instance:Practice.data_providerclass$DP@2ef5e5e3]" name="myTest" duration-ms="2" started-at="2020-10-12T20:42:32Z" data-provider="data-provider" finished-at="2020-10-12T20:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second-Value]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mah -->
-      </class> <!-- Auto_IT.Auto_It -->
+        </test-method> <!-- myTest -->
+      </class> <!-- Practice.data_providerclass$DP -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

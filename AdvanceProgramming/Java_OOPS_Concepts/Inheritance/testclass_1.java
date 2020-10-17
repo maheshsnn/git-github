@@ -9,7 +9,7 @@ public class testclass_1 extends Inheritance_sample {
 	}
 
 		public static void main(String[] args) {
-			//testclass_1 u=new testclass_1();
+		//	testclass_1 u=new testclass_1();
 			
 			Inheritance_sample sss=new testclass_1();
 			
@@ -19,7 +19,7 @@ public class testclass_1 extends Inheritance_sample {
 			
 		//	testclass_1 ss=	new Inheritance_sample();
 			
-			//u.mm();
+		//	u.mm();
 		}
 	
 

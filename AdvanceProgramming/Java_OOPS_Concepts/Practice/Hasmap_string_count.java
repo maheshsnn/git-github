@@ -10,7 +10,7 @@ public class Hasmap_string_count {
 		String s = "This is autoation porg";
 		int count = 0;
 
-		String[] ms = s.split("");
+		String[] ms = s.split(" ");
 
 		HashMap<String, Integer> mm = new HashMap<String, Integer>();
 

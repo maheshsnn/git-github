@@ -19,12 +19,12 @@ public class Hashmap_keyvaluepair_fromexcel {
 
 	public static void main(String[] args) throws IOException {
 		
-		Hashmap_keyvaluepair_fromexcel  ss = new Hashmap_keyvaluepair_fromexcel();
+	//	Hashmap_keyvaluepair_fromexcel  ss = new Hashmap_keyvaluepair_fromexcel();
 
-		System.out.println((ss.getdata().get("mahesh")));
+		System.out.println((Hashmap_keyvaluepair_fromexcel.getdata().get("mahesh")));
 	}
 
-	public HashMap<String, String> getdata() throws IOException {
+	public static HashMap<String, String> getdata() throws IOException {
 
 		HashMap<String, String> testdatafromexcel = new HashMap<>();
 

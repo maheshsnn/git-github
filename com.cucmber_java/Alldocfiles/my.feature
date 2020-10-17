@@ -1,6 +1,5 @@
 Feature: Facebooks login smoke case
 
-@tags
    Scenario: checking scenariothree
    Given: checking given in scenariothree
    When: checking when in scenariothree

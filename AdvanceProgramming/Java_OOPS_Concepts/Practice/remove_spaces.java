@@ -9,6 +9,10 @@ public class remove_spaces {
 
 		String s="This is mahesh bethi";
 		
+		
+		
+		
+		
 		  String withoutspaces = "";
 		  
 		  
