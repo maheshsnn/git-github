@@ -14,14 +14,12 @@ public class ManageBrowser {
 
 	static Propertiesfile pro;
 
-	
 	/*
-	 * class to create webdriver profile
-	 * we have used singleton design pattern here
+	 * class to create webdriver profile we have used singleton design pattern
+	 * here
 	 * 
 	 */
-	
-	
+
 	private WebDriver driver;
 
 	// instance of singleton class

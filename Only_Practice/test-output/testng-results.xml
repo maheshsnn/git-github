@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54" started-at="2020-11-25T18:53:19Z" finished-at="2020-11-25T18:53:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54" started-at="2020-11-25T18:53:19Z" finished-at="2020-11-25T18:53:19Z">
+      <class name="selenium.invocation_method">
+        <test-method status="PASS" signature="mm()[pri:0, instance:selenium.invocation_method@9629756]" name="mm" is-config="true" duration-ms="11" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mm -->
+        <test-method status="PASS" signature="sh()[pri:0, instance:selenium.invocation_method@9629756]" name="sh" duration-ms="5" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sh -->
+        <test-method status="PASS" signature="sh()[pri:0, instance:selenium.invocation_method@9629756]" name="sh" duration-ms="2" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sh -->
+        <test-method status="PASS" signature="shs()[pri:0, instance:selenium.invocation_method@9629756]" name="shs" duration-ms="2" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shs -->
+      </class> <!-- selenium.invocation_method -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

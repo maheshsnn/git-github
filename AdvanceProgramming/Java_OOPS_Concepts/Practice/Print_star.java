@@ -4,7 +4,10 @@ public class Print_star {
 
 	public static void main(String[] args) {
 		
-	int k=1;
+		int i=1/0;
+		System.out.println(i);
+		
+	/*int k=1;
 
 		for (int i = 0; i < 3; i++) {
 			
@@ -30,7 +33,7 @@ public class Print_star {
 			System.out.println();
 		
 		}
-		
+		*/
 	}
 
 }

@@ -13,6 +13,7 @@ public class wait_scripts {
 	
 	static WebDriver driver;
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		
 		

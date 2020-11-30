@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56235" started-at="2020-10-17T04:39:21Z" finished-at="2020-10-17T04:40:17Z">
+  <suite name="Suite" duration-ms="70355" started-at="2020-10-21T06:08:20Z" finished-at="2020-10-21T06:09:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="56235" started-at="2020-10-17T04:39:21Z" finished-at="2020-10-17T04:40:17Z">
+    <test name="Test" duration-ms="70355" started-at="2020-10-21T06:08:20Z" finished-at="2020-10-21T06:09:30Z">
       <class name="Testcases.Demo_Web_Shop">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="setup" is-config="true" duration-ms="16237" started-at="2020-10-17T10:09:21Z" finished-at="2020-10-17T10:09:38Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="setup" is-config="true" duration-ms="21921" started-at="2020-10-21T11:38:20Z" finished-at="2020-10-21T11:38:42Z">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="WebShop_Demo()[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="WebShop_Demo" duration-ms="39292" started-at="2020-10-17T10:09:38Z" finished-at="2020-10-17T10:10:17Z">
+        <test-method status="PASS" signature="WebShop_Demo()[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="WebShop_Demo" duration-ms="48011" started-at="2020-10-21T11:38:42Z" finished-at="2020-10-21T11:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebShop_Demo -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="teardown" is-config="true" duration-ms="593" started-at="2020-10-17T10:10:17Z" finished-at="2020-10-17T10:10:17Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="teardown" is-config="true" duration-ms="308" started-at="2020-10-21T11:39:30Z" finished-at="2020-10-21T11:39:30Z">
           <params>
             <param index="0">
               <value>

@@ -5,6 +5,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Workplace\Photon_Automation\Only_Practice"/>
 			<item value="G:\Photon_Automation\Appium"/>
 			<item value="G:\AUTOMATION WORKSPACE\Appium"/>
 			<item value="G:\Photon_Automation\valuelabs-qa-automation"/>

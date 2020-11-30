@@ -21,7 +21,7 @@ public class Hashmap_keyvaluepair_fromexcel {
 		
 	//	Hashmap_keyvaluepair_fromexcel  ss = new Hashmap_keyvaluepair_fromexcel();
 
-		System.out.println((Hashmap_keyvaluepair_fromexcel.getdata().get("mahesh")));
+		System.out.println(Hashmap_keyvaluepair_fromexcel.getdata().get("mahesh"));
 	}
 
 	public static HashMap<String, String> getdata() throws IOException {

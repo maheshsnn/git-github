@@ -11,7 +11,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"inner.feature"},
 glue={"testcases"},
-plugin={"html:target/cucmber-html-report","json:target/cucumber.json"}
+plugin={"html:target/cucmber-html-report","json:target/cucumber.json"},
+format={"pretty",""}
 
 )
 public class tesdatd {
